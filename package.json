@@ -1,0 +1,21 @@
+{
+  "name": "cal-scraper",
+  "version": "1.0.0",
+  "description": "A small scraper to get expenses cal bank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Eyal Cohen <eyalcohen4.ec@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "puppeteer": "^1.10.0",
+    "cheerio": "1.0.0-rc.2"
+  },
+  "engines": {
+    "node": "> 8"
+  }
+}
